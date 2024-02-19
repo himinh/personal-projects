@@ -1,0 +1,62 @@
+:root {
+  --light-layout-bg: #fff;
+  --light-text-item-hover: #fff;
+  --light-alpha-bg: hsla(0, 0%, 100%, 0.1);
+  --light-navigation-text: #dadada;
+  --light-layout-header-bg: rgba(23, 15, 35, 0.8);
+  --light-player-bg: #130c1c;
+  --light-sidebar-bg: #231b2e;
+  --light-sidebar-popup-bg: #2a213a;
+  --light-primary-bg: #34224f;
+  --light-gradient-latest-section-artist: linear-gradient(
+    286.07deg,
+    rgba(23, 15, 35, 0.95) 55.21%,
+    rgba(23, 15, 35, 0.6)
+  );
+  --light-alpha-layout-bg: rgba(41, 21, 71, 0.8);
+  --light-queue-player-popup-bg: #120822;
+  --light-blur-queue-bg: rgba(30, 21, 47, 0.9019607843137255);
+  --light-primary: #9b4de0;
+  --light-link-text-hover: #c273ed;
+  --light-chart-bg-img-alpha: rgba(32, 19, 53, 0.9);
+  --light-song-item-action: hsla(0, 0%, 100%, 0.5);
+  --light-border-primary: hsla(0, 0%, 100%, 0.1);
+  --light-border-secondary: hsla(0, 0%, 100%, 0.05);
+  --light-border-box: hsla(0, 0%, 100%, 0.2);
+  --light-spotlight-item: #130223;
+  --light-border-player: hsla(0, 0%, 100%, 0.1);
+  --light-main-box-shadow: rgba(66, 66, 66, 0.4);
+  --light-new-release-box-shadow: none;
+
+}
+
+.light-mode {
+  color-scheme: light;
+  
+  --layout-bg:var(--dark-layout-bg)
+  --logo-url:var(--dark-logo-url)
+  --logo-icon-url:var(--dark-logo-icon-url)
+  --text-item-hover:var(--dark-text-item-hover)
+  --alpha-bg:var(--dark-alpha-bg)
+  --navigation-text:var(--dark-navigation-text)
+  --layout-header-bg:var(--dark-layout-header-bg)
+  --player-bg:var(--dark-player-bg)
+  --sidebar-bg:var(--dark-sidebar-bg)
+  --sidebar-popup-bg:var(--dark-sidebar-popup-bg)
+  --primary-bg:var(--dark-primary-bg)
+  --gradient-latest-section-artist:var(--dark-gradient-latest-section-artist)
+  --alpha-layout-bg:var(--dark-alpha-layout-bg)
+  --queue-player-popup-bg:var(--dark-queue-player-popup-bg)
+  --blur-queue-bg:var(--dark-blur-queue-bg)
+  --primary:var(--dark-primary)
+  --link-text-hover:var(--dark-link-text-hover)
+  --chart-bg-img-alpha:var(--dark-chart-bg-img-alpha)
+  --song-item-action:var(--dark-song-item-action)
+  --border-primary:var(--dark-border-primary)
+  --border-secondary:var(--dark-border-secondary)
+  --border-box:var(--dark-border-box)
+  --spotlight-item:var(--dark-spotlight-item)
+  --border-player:var(--dark-border-player)
+  --main-box-shadow:var(--dark-main-box-shadow)
+  --new-release-box-shadow:var(--dark-new-release-box-shadow)
+}

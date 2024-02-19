@@ -1,0 +1,53 @@
+@mixin hover-focus-color($color) {
+  &:hover,
+  &:focus {
+    color: $color;
+  }
+}
+
+@mixin logo-small {
+  width: 45px !important;
+  height: 45px !important;
+
+  background-image: var(--logo-icon-url);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@mixin logo-medium {
+  width: 120px !important;
+  height: 40px !important;
+
+  background-image: var(--logo-url);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin button-styles($background-color, $text-color) {
+  background-color: $background-color;
+  border-color: $background-color;
+  color: $text-color;
+
+  &:hover {
+    filter: brightness(0.9);
+    background-color: $background-color;
+    border-color: $background-color;
+    color: $text-color;
+  }
+
+  &[disabled] {
+    box-shadow: none;
+    opacity: 0.5;
+    cursor: not-allowed;
+
+    &:hover {
+      cursor: not-allowed;
+    }
+  }
+}
